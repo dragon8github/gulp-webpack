@@ -8,9 +8,11 @@
 
 > [https://gulpjs.com/plugins/](https://gulpjs.com/plugins/)
 
+官方api文档
 
+> https://github.com/gulpjs/gulp/blob/master/docs/API.md
 
-
+---
 
 ## gulp命令 {#articleHeader3}
 

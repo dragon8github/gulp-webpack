@@ -1,10 +1,12 @@
+传送门
+
+> https://github.com/dlmanning/gulp-sass
+
 npm 安装列表
 
 > $ cnpm install gulp --save-dev
 >
 > $ cnpm install gulp-sass --save-dev
-
-
 
 gulpfile.js
 
@@ -29,8 +31,6 @@ gulp.task('sass:watch', function () {
 > $ gulp sass
 
 ![](/assets/12312import.png)
-
-
 
 执行gulp 监听任务
 
