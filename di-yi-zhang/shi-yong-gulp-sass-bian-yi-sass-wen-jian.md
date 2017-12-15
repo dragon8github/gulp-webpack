@@ -1,6 +1,6 @@
 传送门
 
-> https://github.com/dlmanning/gulp-sass
+> [https://github.com/dlmanning/gulp-sass](https://github.com/dlmanning/gulp-sass)
 
 npm 安装列表
 
@@ -29,6 +29,8 @@ gulp.task('sass:watch', function () {
 执行gulp任务
 
 > $ gulp sass
+
+下图中sass/Common.scss是我们手动新建的，/dist/css/Common.css 是gulp生成的
 
 ![](/assets/12312import.png)
 
