@@ -13,6 +13,8 @@
 ## 第二章：构建编译环境
 
 * 使用 gulp-clean 清空文件夹
+* 使用 gulp-clean-css 压缩css
+* [使用gulp-html-replace实现html页面资源路径替换](di-er-zhang-ff1a-gou-jian-bian-yi-huan-jing/shi-yong-gulp-html-replace-shi-xian-html-ye-mian-zi-yuan-lu-jing-ti-huan.md)
 
 ## 第三章：Gulp与webpack结合
 
