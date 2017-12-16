@@ -9,7 +9,7 @@
 
 * [使用gulp-sass编译sass文件](di-yi-zhang/shi-yong-gulp-sass-bian-yi-sass-wen-jian.md)
 * [使用 gulp-autoprefixer 自动为css添加浏览器前缀](di-yi-zhang/shi-yong-gulp-autoprefixer-wei-css-zi-dong-tian-jia-liu-lan-qi-qian-zhui.md)
-* [使用 gulp-livereload 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
+* [使用 browser-sync 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
 
 ## 第二章：构建编译环境
 
