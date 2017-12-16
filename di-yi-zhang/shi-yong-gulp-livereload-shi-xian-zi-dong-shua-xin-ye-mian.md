@@ -24,7 +24,7 @@ npm安装
 
 ---
 
-### EXAMPLE
+### Example
 
 gulpfile.js
 
