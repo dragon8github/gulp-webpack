@@ -1,14 +1,14 @@
 传送门
 
-> https://github.com/dlmanning/gulp-sass
+> [https://github.com/dlmanning/gulp-sass](https://github.com/dlmanning/gulp-sass)
 >
-> https://github.com/floridoo/gulp-sourcemaps
+> [https://github.com/floridoo/gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps)
 
 npm安装
 
 > $ cnpm install gulp-sourcemaps --save-dev
 
-```
+```js
 'use strict';
 const gulp = require('gulp');
 const sass = require('gulp-sass');
