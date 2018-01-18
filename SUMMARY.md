@@ -19,3 +19,7 @@
 
 ## 第三章：Gulp与webpack结合
 
+## 扩展篇
+
+* [用ES6编写gulpfile](kuo-zhan-pian/yong-es6-bian-xie-gulpfile.md)
+
