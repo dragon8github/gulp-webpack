@@ -12,8 +12,6 @@
 >
 > [1、【Did you forget to signal async completion?](https://stackoverflow.com/questions/36897877/gulp-error-the-following-tasks-did-not-complete-did-you-forget-to-signal-async)】
 
-
-
 ### 安装gulp 4.0
 
 想体验4.0只有通过github安装，执行以下两条命令即可在本地畅爽地使用gulp 4.0了。
@@ -26,8 +24,22 @@ $ npm install gulpjs/gulp#4.0 --save-dev
 
 ### Gulp 4.0 核心的变化：
 
-1. `gulp.task` 的变化；
-2. 增加了`gulp.series`和`gulp.parallel`
+* gulp.task 的变化；
+
+* 增加了gulp.series（串行） 和 gulp.parallel（并行）
+
+
+
+#### 1、gulp.task 的变化
+
+
+
+#### 2、增加了gulp.series（串行） 和 gulp.parallel（并行）
+
+首先要了解什么是串行，什么是并行：
+
+* 串行：顺序执行，前面一个（异步）执行完了，后面一个才能执行。环环相扣，就像一个铁环链、责任链一般。
+* 并行：同时执行，不分你我，没有顺序。就像起跑线上的运动员一样，不需要顾及其他人。
 
 
 
