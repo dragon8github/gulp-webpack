@@ -33,26 +33,21 @@ $ npm install gulpjs/gulp#4.0 --save-dev
 ① 移除了gulp.task传递三参数的用法
 
 ```js
-// 既这种做法是错的
+// 既这种做法是错在gulp 4.0 中是错的
 gulp.task('watch', ['default'], function() {
     // TODO
     // watch file
 });
 
 // 这种做法才是对的
-function compile() {
-    gulp.src('./src/*.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist/js'))
+function compile(done) {
+    done();
 }
 gulp.task(compile);
 
 // 上面的做法等同于这样
-gulp.task('compile', function() {
-    // TODO
-    gulp.src('./src/*.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('./dist/js'))
+gulp.task('compile', function(done) {
+    done();
 });
 ```
 
