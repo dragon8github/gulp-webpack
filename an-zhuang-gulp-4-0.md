@@ -37,7 +37,7 @@ $ npm install gulpjs/gulp#4.0 --save-dev
 * 串行：顺序执行，前面一个（异步）执行完了，后面一个才能执行。环环相扣，就像一个铁环链、责任链一般。
 * 并行：同时执行，不分你我，没有顺序。就像起跑线上的运动员一样，不需要顾及其他人。
 
-**比如当我们这样写的时候`（'clean', 'compass', [image', 'style', 'html']，'ftp'）`，我们期待圆括号里面串行执行，中括号里面并行执行。**
+**比如当我们这样写的时候**`（'clean', 'compass', [image', 'style', 'html']，'ftp'）`**，我们期待圆括号里面串行执行，中括号里面并行执行。**
 
 [**gulp 4.0**](https://github.com/gulpjs/gulp/issues/803) 也提供了新的API\(series、parallel\)来解决这个问题。**series**里的任务是顺序执行的，**parallel**里的任务是同时执行的。
 
@@ -51,10 +51,10 @@ gulp.task('style',   function(done) { console.log('style');   done(); });
 gulp.task('html',    function(done) { console.log('html');    done(); });
 gulp.task('ftp',     function(done) { console.log('ftp');     done(); });
 
-gulp.task('prod', gulp.series('clean', 'compass', gulp.parallel('image', 'style', 'html'), 'ftp')); 
+gulp.task('prod', gulp.series('clean', 'compass', gulp.parallel('image', 'style', 'html'), 'ftp'));
 ```
 
-执行 `gulp prod`输出的任务执行情况：🏡
+执行 `gulp prod`输出的任务执行情况：
 
 ![](/assets/asd123dfsdfsdfimport.png)
 
