@@ -38,7 +38,11 @@ gulp.task('watch', ['default'], function() {
     // TODO
     // watch file
 });
+```
 
+② 支持具名函数
+
+```js
 // 这种做法才是对的
 function compile(done) {
     done();
