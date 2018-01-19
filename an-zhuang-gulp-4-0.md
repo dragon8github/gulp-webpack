@@ -2,11 +2,17 @@
 >
 > [http://web.jobbole.com/82992/](http://web.jobbole.com/82992/)
 >
-> http://zhangruojun.com/gulpshun-xu-zhi-xing-ren-wu/
+> [http://zhangruojun.com/gulpshun-xu-zhi-xing-ren-wu/](http://zhangruojun.com/gulpshun-xu-zhi-xing-ren-wu/)
 >
 > 更新日志：
 >
 > [https://github.com/gulpjs/gulp/blob/4.0/CHANGELOG.md](https://github.com/gulpjs/gulp/blob/4.0/CHANGELOG.md)
+>
+> gulp 4.0 异常处理：
+>
+> [1、【Did you forget to signal async completion?](https://stackoverflow.com/questions/36897877/gulp-error-the-following-tasks-did-not-complete-did-you-forget-to-signal-async)】
+
+
 
 ### 安装gulp 4.0
 
