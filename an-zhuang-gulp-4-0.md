@@ -2,6 +2,8 @@
 >
 > [http://web.jobbole.com/82992/](http://web.jobbole.com/82992/)
 >
+> http://zhangruojun.com/gulpshun-xu-zhi-xing-ren-wu/
+>
 > 更新日志：
 >
 > [https://github.com/gulpjs/gulp/blob/4.0/CHANGELOG.md](https://github.com/gulpjs/gulp/blob/4.0/CHANGELOG.md)
@@ -16,10 +18,10 @@ $ npm install gulpjs/gulp#4.0 -g
 $ npm install gulpjs/gulp#4.0 --save-dev
 ```
 
-### Gulp 4.0 两个核心的变化：
+### Gulp 4.0 核心的变化：
 
 1. `gulp.task` 的变化；
-2. 增加了`gulp.series`和`gulp.parallel`。
+2. 增加了`gulp.series`和`gulp.parallel`
 
 
 
