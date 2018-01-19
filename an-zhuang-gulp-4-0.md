@@ -28,9 +28,35 @@ $ npm install gulpjs/gulp#4.0 --save-dev
 
 * 增加了gulp.series（串行） 和 gulp.parallel（并行）
 
-#### 1、gulp.task 的变化📭
+#### 一、gulp.task 的变化
 
-#### 2、增加了gulp.series（串行） 和 gulp.parallel（并行）
+① 移除了gulp.task传递三参数的用法
+
+```js
+// 既这种做法是错的
+gulp.task('watch', ['default'], function() {
+    // TODO
+    // watch file
+});
+
+// 这种做法才是对的
+function compile() {
+    gulp.src('./src/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/js'))
+}
+gulp.task(compile);
+
+// 上面的做法等同于这样
+gulp.task('compile', function() {
+    // TODO
+    gulp.src('./src/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/js'))
+});
+```
+
+#### 二、增加了gulp.series（串行） 和 gulp.parallel（并行）
 
 首先要了解什么是串行，什么是并行：
 
