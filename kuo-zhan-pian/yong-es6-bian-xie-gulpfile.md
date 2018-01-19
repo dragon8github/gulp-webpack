@@ -23,7 +23,7 @@ $ npm install babel-register babel-preset-env --save
 
 3、新建.babelrc文件
 
-```
+```js
 {
   "presets": ["env"]
 }
