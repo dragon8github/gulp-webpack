@@ -1,6 +1,8 @@
 据我所知，nodejs6.x的版本都已经支持部分 es6 了。但不支持import / export 模块导出导入语法。
 
-新版本的 nodejs9.X 以上已经支持 import / export 了。但这里还是说一下吧。
+虽然没什么卵用，但还是介绍一下吧。
+
+---
 
 1、首先gulpfile.js 改名为 gulpfile.babel.js
 
