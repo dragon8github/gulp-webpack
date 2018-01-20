@@ -4,6 +4,7 @@
 
 * [简介](README.md)
 * [安装Gulp 4.0 ：gulp.task 的变化、新增 gulp.series 和 gulp.parallel](an-zhuang-gulp-4-0.md)
+* [使用 gulp.src 和 gulp.dest 的使用：实现复制操作](di-yi-zhang/shi-yong-gulp-src-+-gulp-dest-shi-xian-fu-zhi-cao-zuo.md)
 
 ## 第一章：构建开发环境dev
 
