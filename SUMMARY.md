@@ -3,7 +3,7 @@
 ## 第零章：环境安装
 
 * [简介](README.md)
-* [安装Gulp 4.0 ](an-zhuang-gulp-4-0.md)
+* [安装Gulp 4.0 ：gulp.task 的变化、新增 gulp.series 和 gulp.parallel](an-zhuang-gulp-4-0.md)
 
 ## 第一章：构建开发环境dev
 
