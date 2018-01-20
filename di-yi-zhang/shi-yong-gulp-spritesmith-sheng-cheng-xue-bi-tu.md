@@ -6,9 +6,7 @@ npm安装
 
 > $ cnpm install gulp.spritesmith --save-dev
 
-
-
-#### Example
+### 👨🏽‍💻 Example
 
 ```js
 var gulp = require('gulp');
@@ -34,7 +32,7 @@ gulp.task('sprite', function () {
 });
 ```
 
-#### Result
+### 🏆 Result
 
 ```bash
 C:\Users\Lee\Desktop\123>gulp sprite
