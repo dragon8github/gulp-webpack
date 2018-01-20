@@ -32,6 +32,20 @@ gulp.task('sprite', function () {
 });
 ```
 
+### 🍎 sprite.handlebars
+
+```css
+{{#sprites}}
+.icon-{{name}}:before {
+  display: block;
+  background-image: url('{{image}}');
+  background-position: {{px.offset_x}} {{px.offset_y}};
+  width: {{px.width}};
+  height: {{px.height}};
+}
+{{/sprites}}
+```
+
 ### 🏆 Result
 
 ```bash
