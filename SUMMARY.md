@@ -24,5 +24,5 @@
 
 ## 扩展篇
 
-* [用ES6编写gulpfile](kuo-zhan-pian/yong-es6-bian-xie-gulpfile.md)
+* [gulpfile.babel.js：用 ES6 编写 gulpfile](kuo-zhan-pian/yong-es6-bian-xie-gulpfile.md)
 
