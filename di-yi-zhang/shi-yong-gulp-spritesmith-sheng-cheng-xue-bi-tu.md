@@ -60,10 +60,7 @@ C:\Users\Lee\Desktop\123>gulp sprite
 
 ---
 
-常用的API推荐：
 
-* cssVarMap：定义变量
-* algorithm：定义图片方向
 
 
 
