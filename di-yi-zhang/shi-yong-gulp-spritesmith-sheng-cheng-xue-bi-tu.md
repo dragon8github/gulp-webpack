@@ -6,7 +6,7 @@ npm安装
 
 > $ cnpm install gulp.spritesmith --save-dev
 
-### 👨🏽‍💻 Example
+### ‍💻 Example
 
 ```js
 var gulp = require('gulp');
@@ -57,6 +57,13 @@ C:\Users\Lee\Desktop\123>gulp sprite
 [20:57:09] gulp-imagemin: Minified 1 image (saved 5.87 kB - 42.2%)
 [20:57:09] Finished 'sprite' after 1.47 s
 ```
+
+---
+
+常用的API推荐：
+
+* cssVarMap：定义变量
+* algorithm：定义图片方向
 
 
 
