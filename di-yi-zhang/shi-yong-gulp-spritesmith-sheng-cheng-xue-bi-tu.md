@@ -60,7 +60,25 @@ C:\Users\Lee\Desktop\123>gulp sprite
 
 ---
 
+### Q&A
 
+1、sprite.handlebars 中的变量，我如何获取和查看？
+
+可以查看github，或者使用 cssVarMap 来查看和自定义
+
+```js
+ let spriteData = gulp.src(paths.src.sliceDir + `${slicePath}/*.png`).pipe(spritesmith({
+      imgName: `${folder||'sprite'}.png`,
+      cssName: `${folder||'sprite'}.scss`,
+      cssFormat: 'scss',
+      cssVarMap(sprite) {
+        sprite.name = `${config.sprite.prefix}${folder ? '-' + folder : ''}-${sprite.name}`;
+      },
+      cssTemplate: 'templates/sprite.handlebars',
+      algorithm: config.sprite.algorithm,
+      padding: 8
+  }));
+```
 
 
 
