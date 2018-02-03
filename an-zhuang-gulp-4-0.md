@@ -38,6 +38,12 @@ gulp.task('watch', ['default'], function() {
     // TODO
     // watch file
 });
+
+// 这样才是对的，那怎么解决依赖问题呢？请看下文的gulp.series（串行）和 gulp.parallel（并行）
+gulp.task('watch', function() {
+    // TODO
+    // watch file
+});
 ```
 
 ② 支持具名函数
