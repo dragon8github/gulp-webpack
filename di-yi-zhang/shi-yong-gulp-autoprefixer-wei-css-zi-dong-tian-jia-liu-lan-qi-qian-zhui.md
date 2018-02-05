@@ -4,7 +4,7 @@
 
 npm 安装列表
 
-> $ npm install --save-dev gulp-autoprefixer
+> $ cnpm install gulp-autoprefixer --save-dev
 
 注意，这里是先进行autoprefixer，再进行sass编译。笔者之前弄反了导致编译的css出现了问题。通过网上其他学习才了解到正确的姿势。
 

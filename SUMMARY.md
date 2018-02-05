@@ -10,8 +10,8 @@
 
 * [使用 gulp-sass 编译 sass 文件](di-yi-zhang/shi-yong-gulp-sass-bian-yi-sass-wen-jian.md)
 * [使用 gulp-autoprefixer 自动为 css 添加浏览器前缀](di-yi-zhang/shi-yong-gulp-autoprefixer-wei-css-zi-dong-tian-jia-liu-lan-qi-qian-zhui.md)
-* [使用 browser-sync 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
 * [使用 gulp-sourcemaps 生成 sourcemaps](di-yi-zhang/shi-yong-gulp-sourcemaps-sheng-cheng-sourcemaps.md)
+* [使用 browser-sync 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
 * [使用 gulp.spritesmith 生成雪碧图](di-yi-zhang/shi-yong-gulp-spritesmith-sheng-cheng-xue-bi-tu.md)
 
 ## 第二章：构建编译环境build
