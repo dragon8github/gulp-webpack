@@ -4,7 +4,7 @@
 
 npm安装
 
-> $ cnpm install gulp-babel babel-core babel-preset-env babel-plugin-transform-runtime babel-preset-stage-2 --save-dev
+> $ cnpm install gulp-babel babel-core babel-preset-env babel-preset-stage-2 babel-plugin-transform-runtime  --save-dev
 
 Example
 
