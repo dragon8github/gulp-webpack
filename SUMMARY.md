@@ -13,6 +13,7 @@
 * [使用 gulp-sourcemaps 生成 sourcemaps](di-yi-zhang/shi-yong-gulp-sourcemaps-sheng-cheng-sourcemaps.md)
 * [使用 browser-sync 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
 * [使用 gulp.spritesmith 生成雪碧图](di-yi-zhang/shi-yong-gulp-spritesmith-sheng-cheng-xue-bi-tu.md)
+* [使用 gulp-babel](di-yi-zhang/shi-yong-gulp-babel.md)
 
 ## 第二章：构建编译环境build
 
