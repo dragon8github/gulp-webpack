@@ -37,14 +37,14 @@ function babel_env () {
                    path.dirname = path.dirname.replace('src', 'dist')
                }))
                .pipe(gulp.dest('./components'))
-            
+
 }
 
 // 编译babel
 gulp.task(babel_env)
 ```
 
-Exec
+执行一下
 
 ```
 $ gulp babel_env
