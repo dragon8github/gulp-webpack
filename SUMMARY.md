@@ -4,7 +4,6 @@
 
 * [简介](README.md)
 * [安装Gulp 4.0 ：gulp.task 的变化、新增 gulp.series 和 gulp.parallel](an-zhuang-gulp-4-0.md)
-* [使用 gulp.src 和 gulp.dest 的使用：实现复制操作](di-yi-zhang/shi-yong-gulp-src-+-gulp-dest-shi-xian-fu-zhi-cao-zuo.md)
 
 ## 第一章：构建开发环境dev
 
@@ -14,6 +13,7 @@
 * [使用 browser-sync 实现自动刷新页面](di-yi-zhang/shi-yong-gulp-livereload-shi-xian-zi-dong-shua-xin-ye-mian.md)
 * [使用 gulp.spritesmith 生成雪碧图](di-yi-zhang/shi-yong-gulp-spritesmith-sheng-cheng-xue-bi-tu.md)
 * [使用 gulp-babel 将 ES 6 转化为 ES 5](di-yi-zhang/shi-yong-gulp-babel.md)
+* [使用 gulp-rename 解决 dest 相对路径的问题](di-yi-zhang/shi-yong-gulp-rename-jie-jue-xiang-dui-lu-jing-de-wen-ti.md)
 
 ## 第二章：构建编译环境build
 
@@ -26,4 +26,5 @@
 ## 扩展篇
 
 * [gulpfile.babel.js：用 ES6 编写 gulpfile](kuo-zhan-pian/yong-es6-bian-xie-gulpfile.md)
+* [gulp.src 的使用 与 options.base 参数](di-yi-zhang/shi-yong-gulp-src-+-gulp-dest-shi-xian-fu-zhi-cao-zuo.md)
 
