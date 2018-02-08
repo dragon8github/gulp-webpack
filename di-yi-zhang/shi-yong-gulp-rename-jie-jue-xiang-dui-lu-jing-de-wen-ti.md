@@ -1,6 +1,6 @@
 稍后整理
 
-
+gulpfile.js
 
 ```js
 const rename       = require('gulp-rename');
@@ -30,7 +30,7 @@ function babel_env () {
                    path.dirname = path.dirname.replace('src', 'dist')
                }))
                .pipe(gulp.dest('./components'))
-            
+
 }
 
 // 编译babel

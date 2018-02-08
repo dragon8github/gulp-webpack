@@ -14,6 +14,7 @@
 * [使用 gulp.spritesmith 生成雪碧图](di-yi-zhang/shi-yong-gulp-spritesmith-sheng-cheng-xue-bi-tu.md)
 * [使用 gulp-babel 将 ES 6 转化为 ES 5](di-yi-zhang/shi-yong-gulp-babel.md)
 * [使用 gulp-rename 解决 dest 相对路径的问题](di-yi-zhang/shi-yong-gulp-rename-jie-jue-xiang-dui-lu-jing-de-wen-ti.md)
+* [使用 gulp-ejs 编写动态内容](di-yi-zhang/shi-yong-gulp-ejs-dong-tai-shu-xie-html-nei-rong.md)
 
 ## 第二章：构建编译环境build
 
