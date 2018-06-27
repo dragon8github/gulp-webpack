@@ -1,3 +1,11 @@
+gulp-rename 插件简直就是解决路径问题的神器。特别适合解决相对路径问题。
+
+```
+$ cnpm i gulp-rename
+```
+
+
+
 稍后整理
 
 gulpfile.js
